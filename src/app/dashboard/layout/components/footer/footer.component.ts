@@ -51,4 +51,9 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['/favorite']);
     this.isOpenMenu = false
   }
+
+  openSimilarities(){
+    this.router.navigate(['/similarities']);
+    this.isOpenMenu = false
+  }
 }
