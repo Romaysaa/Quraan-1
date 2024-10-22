@@ -1,7 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { MatDialog, MatDialogRef } from "@angular/material/dialog";
 import { Router } from '@angular/router';
-import { PrintComponent } from 'src/app/shared/print/print.component';
+// import { PrintComponent } from 'src/app/shared/print/print.component';
 import { ReadersComponent } from 'src/app/shared/readers/readers.component';
 
 @Component({
@@ -34,15 +34,17 @@ export class FooterComponent implements OnInit {
   }
 
   openPrint(): void {
-    const dialogRef = this.dialog.open(PrintComponent, {
-      width: "600px",
-      panelClass: "popup-center",
-      data:this.isOpenMenu = false
-    });
+    // const dialogRef = this.dialog.open(PrintComponent, {
+    //   width: "600px",
+    //   panelClass: "popup-center",
+    //   data:this.isOpenMenu = false
+    // }
+  // )
+  // ;
 
-    dialogRef.afterClosed().subscribe((result) => {
-      console.log("The dialog was closed");
-    });
+  //   dialogRef.afterClosed().subscribe((result) => {
+  //     console.log("The dialog was closed");
+  //   });
   }
 
   openFavorite(){
