@@ -297,21 +297,6 @@ export class FormComponent implements OnInit {
     });
   }
   
-//   toAyaFun($event: any) {
-// debugger
-//     this.sorats = []
-//     this.ayat = []
-
-//     this.toAya = $event.value.id;
-//     for (this.fromAya; this.fromAya < this.toAya; this.fromAya++) {
-//       this.ayat.push(this.fromAya);
-//     }
-//     this.audioCount = this.ayat.length;
-//     this.ayat.forEach((aya: any) => {
-//       this.roow = 'http://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/' + aya;
-//       this.sorats.push(this.roow);
-//     });
-//   }
 
   fromRobFun($event: any) {
     this.fromRob = $event.value.ayaId;
