@@ -262,7 +262,10 @@ export class FormComponent implements OnInit {
   toAyaFun($event: any) {
     this.sorats = [];
     this.ayat = [];
-  
+         
+
+
+    
     // Resetting toAya to the selected value from the event
     this.toAya = $event.value.id;
   
